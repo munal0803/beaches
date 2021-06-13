@@ -281,7 +281,7 @@ if(visitor == "mid"){
   if(connect == "good"){
     out="Balaramgadi Beach";
   }
-} }
+} 
 var strText="We got the right fit for you";
 console.log(out);
 document.getElementById("p1").innerHTML = strText;
