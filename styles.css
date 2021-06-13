@@ -70,7 +70,7 @@ input[type=text], select, textarea {
     resize: vertical;
   }
   
-  input[type=submit] {
+  button {
     background-color:black;
     color: white;
     padding: 12px 20px;
@@ -79,15 +79,8 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
+  button:hover {
     background-color: aqua;
   }
   
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    width:60%;
-    margin-left: auto;
-    margin-right: auto ;
-  }
+  

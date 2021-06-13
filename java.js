@@ -1,4 +1,5 @@
 function results(){
+
 var visitor=document.getElementById("visit").value ;
 var hotel;
 var weather;
