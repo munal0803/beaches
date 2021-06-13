@@ -6,13 +6,13 @@ var weather;
 var connect=document.getElementById("connect").value;
 var state=document.getElementById("state").value;
 var out;
-
+console.log(connect+visitor+state);
 //STATE : GUJARAT
-if(state =="gujarat"){
+if(state ==="gujarat"){
   out = "Chakratirth Beach";
-if(visitor == "high"){
-  if(connect == "very good"){
-    out = "jampore breach";
+if(visitor ==="high"){
+  if(connect === "very good"){
+    out = "jampore beach";
   }
   if(connect == "good"){
     out = "mandvi beach";
@@ -129,74 +129,74 @@ if(visitor == "high"){
   if(connect == "very good"){
     out = "NITK Beach";
   }
-  if(connect == "good"){
+  if(connect === "good"){
     out = "Sasihithlu Beach";
   }
-  if(connect == "bad"){
+  if(connect === "bad"){
     out="Someshwar Beach";
   }
 }
 
-if(visitor =="low"){
-  if(connect == "good"){
+if(visitor === "low"){
+  if(connect === "good"){
     out = "Mukka Beach";
   }
-  if(connect == "very good"){
+  if(connect === "very good"){
     out = "Ullal beach";
   }
-  if(connect == "bad"){
+  if(connect === "bad"){
     out="Batapady Beach";
   }
 }
 
-if(visitor =="mid"){
-  if(connect == "very good"){
+if(visitor ==="mid"){
+  if(connect === "very good"){
     out = "Gangolli Beach";
   }
-  if(connect == "bad"){
+  if(connect === "bad"){
     out = "Kaup Beach";
   }
-  if(connect == "good"){
+  if(connect === "good"){
     out="Full Moon Beach";
   }
 }}
 
 // tamil nadu
-if(state == "tamil nadu"){
+if(state === "tamil nadu"){
   out = "Marina Beach";
 
-if(visitor == "high"){
-  if(connect == "very good"){
+if(visitor === "high"){
+  if(connect === "very good"){
     out = "Marina Beach";
   }
-  if(connect == "good"){
+  if(connect === "good"){
     out = "Mahabalipuram Beach";
   }
-  if(connect == "bad"){
+  if(connect === "bad"){
     out="Kanyakumari Beach";
   }
 }
 
-if(visitor =="low"){
-  if(connect == "good"){
+if(visitor ==="low"){
+  if(connect === "good"){
     out = "Covelong Beach";
   }
-  if(connect == "very good"){
+  if(connect === "very good"){
     out = "Elliot's Beach";
   }
-  if(connect == "bad"){
+  if(connect === "bad"){
     out="Ariyaman Beach";
   }
 }
 
-if(visitor == "mid"){
-  if(connect == "very good"){
+if(visitor === "mid"){
+  if(connect === "very good"){
     out = "Kunthukal Beach";
   }
-  if(connect == "bad"){
+  if(connect === "bad"){
     out = "kanyakumari Beach";
   }
-  if(connect == "good"){
+  if(connect === "good"){
     out="Dhanushkodi Beach";
   }
 }}
@@ -204,91 +204,90 @@ if(visitor == "mid"){
 
 
 //Odisa
-if(state =="odisha"){
+if(state ==="odisha"){
   out = "Paradip Beach";
 
-if(visitor == "high"){
-  if(connect == "very good"){
+if(visitor === "high"){
+  if(connect === "very good"){
     out = "Gopalpur Beach";
   }
-  if(connect == "good"){
+  if(connect === "good"){
     out = "Astaranga Beach";
   }
-  if(connect == "bad"){
+  if(connect === "bad"){
     out="Puri Beach";
   }
 }
 
-if(visitor == "low"){
-  if(connect == "good"){
+if(visitor === "low"){
+  if(connect === "good"){
     out = "Chandrabhaga Beach";
   }
-  if(connect == "very good"){
+  if(connect === "very good"){
     out = "Baliharchandi Beach";
   }
-  if(connect == "bad"){
+  if(connect === "bad"){
     out="Balighai Beach";
   }
 }
 
-if(visitor == "mid"){
-  if(connect == "very good"){
+if(visitor === "mid"){
+  if(connect === "very good"){
     out = "Aryapalli Beach";
   }
-  if(connect == "bad"){
+  if(connect === "bad"){
     out = "Chandipur Beach";
   }
-  if(connect == "good"){
+  if(connect === "good"){
     out="Balaramgadi Beach";
   }
 }}
 
 //west bengal
 
-if(state =="west bengal"){
+if(state ==="west bengal"){
   out = "Mandarmani Beach";
 }
-if(visitor == "high"){
-  if(connect == "very good"){
+if(visitor === "high"){
+  if(connect === "very good"){
     out = "Shankarpur Beach";
   }
-  if(connect == "good"){
+  if(connect === "good"){
     out = "Astaranga Beach";
   }
-  if(connect == "bad"){
+  if(connect === "bad"){
     out="Puri Beach";
   }
 }
 
-if(visitor == "low"){
-  if(connect == "good"){
+if(visitor === "low"){
+  if(connect === "good"){
     out = "Chandrabhaga Beach";
   }
-  if(connect == "very good"){
+  if(connect === "very good"){
     out = "Baliharchandi Beach";
   }
-  if(connect == "bad"){
+  if(connect === "bad"){
     out="Balighai Beach";
   }
 }
 
-if(visitor == "mid"){
-  if(connect == "very good"){
+if(visitor === "mid"){
+  if(connect === "very good"){
     out = "Aryapalli Beach";
   }
-  if(connect == "bad"){
+  if(connect === "bad"){
     out = "Chandipur Beach";
   }
-  if(connect == "good"){
+  if(connect === "good"){
     out="Balaramgadi Beach";
   }
 }  
-}
+
 var strText="We got the right fit for you";
 
 console.log(out);
-document.getElementById("p1").innerHTML = strText;
-document.getElementById("p2").innerHTML = out;
 
+alert(out);
 
 }
