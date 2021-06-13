@@ -41,7 +41,8 @@ if(visitor === "mid"){
   if(connect === "good"){
     out="nagoa beach";
   }
-}}
+}
+}
 
 //STATE : MAHARASTRA
 if(state === "maharastra"){
@@ -280,7 +281,7 @@ if(visitor === "mid"){
   if(connect === "good"){
     out="Balaramgadi Beach";
   }
-}
+} }
 var strText="We got the right fit for you";
 document.getElementById("p1").innerHTML = strText;
 document.getElementById("p2").innerHTML = out;
