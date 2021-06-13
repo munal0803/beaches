@@ -284,8 +284,10 @@ if(visitor == "mid"){
   }
 } 
 var strText="We got the right fit for you";
+
 console.log(out);
 document.getElementById("p1").innerHTML = strText;
 document.getElementById("p2").innerHTML = out;
+
 
 }
