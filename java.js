@@ -1,8 +1,9 @@
-var visitor ;
+function results{
+var visitor=document.getElementById("visit").value ;
 var hotel;
 var weather;
-var connect;
-var state;
+var connect=document.getElementById("connect").value;
+var state=document.getElementById("state").value;
 var out;
 
 //STATE : GUJARAT
@@ -279,4 +280,9 @@ if(visitor === "mid"){
   if(connect === "good"){
     out="Balaramgadi Beach";
   }
-}}
+}
+var strText="We got the right fit for you";
+document.getElementById("p1").innerHTML = strText;
+document.getElementById("p2").innerHTML = out;
+
+}
